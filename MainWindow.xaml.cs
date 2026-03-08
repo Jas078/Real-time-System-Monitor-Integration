@@ -67,7 +67,7 @@ namespace Real_time_System_Monitor_Integration
             StopButton.IsEnabled = true;
             IntervalTextBox.IsEnabled = false;
         }
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object? sender, EventArgs e)
         {
             var metrics = _service.GetMetrics();
 
