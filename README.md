@@ -38,7 +38,7 @@ dotnet build
 
 ### 4. Run as Administrator
 
-> ⚠️ LibreHardwareMonitor requires Administrator privileges to access hardware sensor data.
+>  * LibreHardwareMonitor requires Administrator privileges to access hardware sensor data.
 
 **Option A — Command line:**
 ```bash
